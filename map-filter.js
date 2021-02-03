@@ -71,12 +71,25 @@ const students = [
 //     console.log(addname)
     
 // }
-const ids = students.map(s => s.id);
-console.log(ids);
+// const ids = students.map(s => s.id);
+// console.log(ids);
 
 
-const bigger = students.filter(s => s.id>20);
-console.log(bigger);
+// const bigger = students.filter(s => s.id>20);
+// console.log(bigger);
 
-const biggerOne = students.find(s => s.id>20);
-console.log(biggerOne);
+// const biggerOne = students.find(s => s.id>20);
+// console.log(biggerOne);
+
+
+
+// function doSomthing (x, y = 4) {
+//     console.log(y);
+// }
+// doSomthing(3, 2)
+
+if ('false') {
+    console.log(' i am not false')
+}else{
+    console.log("i am false")
+}
