@@ -33,7 +33,12 @@
 // }
 // const result3 = add (12)
 // console.log(result3)
-const num = null;
-console.log(num)
-const ages = [2, 4, 6,  6,  9, 8,11];
-console.log(ages[7]);
+// const num = null;
+// console.log(num)
+// const ages = [2, 4, 6,  6,  9, 8,11];
+// console.log(ages[7]);
+
+function doSomething(x, y) {
+    console.log(y);
+}
+doSomething(32);
